@@ -34,8 +34,6 @@ class Student
    expect(Student.class_variable_get(:@@all)."Arron Enser").to eq("Arron Enser")
     expect(Student.class_variable_get(:@@all)."Jenny Yamada").to eq("Jenny Yamada")
     
-    end
-    
     end 
   end
 
