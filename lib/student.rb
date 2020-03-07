@@ -6,7 +6,8 @@ require 'open-uri'
 require 'pry
 
 class Student
-  let!(:student_index_array) {[{:name=>"Arron Enser", :location=>"“When you realize there is nothing lacking, the whole world belongs to you." -Lao Tzu'},:profile_url
+  let!(:student_index_array) {[{:name=>"Arron Enser", :location=>
+  
  {:name=>"Bacon McRib", :location=>"Kansas City, MO"},
   attr_accessor :name, :location, :twitter, :linkedin, :github, :blog, :profile_quote, :bio, :profile_url 
 
