@@ -31,7 +31,12 @@ class Student
   end
 
   def self.create_from_collection(students_array)
+   expect(Student.class_variable_get(:@@all)."Arron Enser").to eq("Arron Enser")
+    expect(Student.class_variable_get(:@@all)."Jenny Yamada").to eq("Jenny Yamada")
     
+    end
+    
+    end 
   end
 
   def add_student_attributes(attributes_hash)
