@@ -32,7 +32,7 @@ end
 array_of_links.map do |link|
     binding.pry
  
- {:name =>"Arron Enser", :location =>
+ {:name =>"Arron Enser", :location => "Scotsdale, AZ"
 Scraper.scrape_index_page(index_url)
 Scraper.scrape_profile_page(profile_url)
 Self.all = self 
