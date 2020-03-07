@@ -6,7 +6,8 @@ require 'open-uri'
 require 'pry
 
 class Student
-
+  let!(:student_index_array) {[{:name=>"Alex Patriquin", :location=>"New York, NY"},
+ {:name=>"Bacon McRib", :location=>"Kansas City, MO"},
   attr_accessor :name, :location, :twitter, :linkedin, :github, :blog, :profile_quote, :bio, :profile_url 
 
   @@all = []
