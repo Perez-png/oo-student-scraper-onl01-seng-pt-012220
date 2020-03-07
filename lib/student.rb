@@ -38,7 +38,11 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
-    
+    describe '.all' do
+    it 'returns the class variable @@all' do
+      Student.class_variable_set(:@@all, [])
+      expect(Student.all).to match_array([])
+    end
   end
 
   def self.all
