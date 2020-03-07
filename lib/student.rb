@@ -23,7 +23,11 @@ class Student
   @@all = []
 
   def initialize(student_hash)
-    
+      {Student.new({:name => "Arron Enser"), :location => "Scotsdale, AZ"})}.to_not raise_error
+      expect(student.name).to eq("Arron Enser")
+      expect(student.location).to eq("Scotsdale, AZ")
+    end 
+  
   end
 
   def self.create_from_collection(students_array)
