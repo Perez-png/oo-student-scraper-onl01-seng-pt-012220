@@ -6,12 +6,9 @@ require 'open-uri'
 require 'pry
 
 class Student
-  let!(:student_index_array) {[{:name=>"Arron Enser", :location=> "Scotsdake, AZ", :profile_url "students/aaron-enser.html"}, {:name=> "Jenny Yamada", :location=>"Portland, OR", :profile_url"
+  let!(:student_index_array) {[{:name=>"Arron Enser", :location=> "Scotsdake, AZ", :profile_url "students/aaron-enser.html"}, {:name=> "Jenny Yamada", :location=>"Portland, OR", :profile_url"/students/jenny-yamada.html"}
   
   
- {:name=>"Bacon McRib", :location=>"Kansas City, MO"},
-  attr_accessor :name, :location, :twitter, :linkedin, :github, :blog, :profile_quote, :bio, :profile_url 
-
   @@all = []
 
   def initialize(student_hash)
