@@ -9,6 +9,8 @@ class Student
   let!(:student_index_array) {[{:name=>"Arron Enser", :location=> "Scotsdake, AZ", :profile_url "students/aaron-enser.html"}, {:name=> "Jenny Yamada", :location=>"Portland, OR", :profile_url"/students/jenny-yamada.html"}
   
   
+  
+  
   @@all = []
 
   def initialize(student_hash)
